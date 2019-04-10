@@ -52,7 +52,7 @@ body{
 /* Start Menu Primer */
 .menu-primer ul {
     text-align: center;
-    background-color: #d114d1;
+    background-color: #f374f3;
     border-radius: 4px;
     box-shadow:
         0 3px 5px -1px rgba(red, green, blue, alpha),
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   .snip1467 img {
     width: calc(120%);
     backface-visibility: hidden;
-    vertical-align: top;
+    float: left;
     -webkit-transform: translate(-40px);
     transform: translate(-40px);
   }
@@ -242,7 +242,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 /* End ffect */
 
-
 /* Start Box */
 .box-heading {
     background-color: #df8cdf;
@@ -285,16 +284,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* End Jumbotron */
 
-/* Start Alamat */
+/* Start Layanan Table */
+.layanan-table {
+    border: 1px solid #d1d5da;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+.layanan-tabel th {
+    background-color: #f6f8fa;
+}
+.layanan-tabel td {
+    text-align: center;
+}
+/* And Layanan Table */
 
-/* And Alamat */
+/* Start Form */
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* And Form */
 
 /* Start Menu Sekunder */
 .menu-sekunder{
     background-color:#f7e5f7;
     text-align: justify;
     width: 100%;
-    padding: 10px;
 
 }
 .menu-sekunder-one {

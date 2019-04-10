@@ -49,6 +49,19 @@ body{
 }
 /* End Logo */
 
+/*Start Anchor/ Hyperlink */
+a:link,
+a:active {
+    color:#0366d6;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+/*Start Anchor/ Hyperlink */
+
 /* Start Menu Primer */
 .menu-primer ul {
     text-align: center;
@@ -88,19 +101,6 @@ body{
 }
 /* End Menu Primer */
 
-/*Start Anchor/ Hyperlink */
-a:link,
-a:active {
-    color:#0366d6;
-    text-decoration: none;
-}
-a:hover,
-a:active {
-    color: #000000;
-    text-decoration: underline;
-}
-/*Start Anchor/ Hyperlink */
-
 /* Start Heading */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
@@ -131,12 +131,12 @@ h1, h2, h3, h4, h5, h6 {
 .main-kategori-one {
     float: left;
     width: 48%;
-    padding: 5px;
+    padding: 10px;
 }
 .main-kategori-two {
     float: right;
     width: 48%;
-    padding: 5px;
+    padding: 10px;
 }
 .main-kategori-one .box-isi, 
 .main-kategori-two .box-isi {

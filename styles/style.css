@@ -309,7 +309,34 @@ textarea {
     padding: 10px;
 }
 
+input::placeholder,
+textarea::placeholder {
+    color: #88888;
+    font-weight: 300;
+}
+
+input[type="submit"]
+.button {
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color: #000000 !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none !important
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 /* And Form */
+
+/* Start Contact Form */
+.contact-form div{
+    margin: 20px 0;
+}
+/* End Contact Form */
 
 /* Start Menu Sekunder */
 .menu-sekunder{

@@ -4,8 +4,8 @@ body{
     font-family: Helvetica, sans-serif sans-serif;
     font-size: 16px;
     line-height: 1.5em;
-    margin: 5;
-    padding: 10; 
+    margin: 5px;
+    padding: 50px; 
 }
 @media only screen and (max-width:600px){
     body {
@@ -130,11 +130,13 @@ h1, h2, h3, h4, h5, h6 {
 /* Start Main Cerpen*/
 .main-kategori-one {
     float: left;
-    width: 50%;
+    width: 48%;
+    padding: 5px;
 }
 .main-kategori-two {
     float: right;
-    width: 50%;
+    width: 48%;
+    padding: 5px;
 }
 .main-kategori-one .box-isi, 
 .main-kategori-two .box-isi {
@@ -249,6 +251,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3px 3px 0 0;
     margin: 0;
     padding: 10px 20px;
+    text-align: center;
     text-transform: uppercase;
 }
 .box-heading h3 {
@@ -262,7 +265,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 10px 20px;
 }
-
 /* End Box */
 
 /* Start Jumbotron */
